@@ -1,0 +1,24 @@
+body{
+    background-color:#080006;
+}
+img{
+    background-color: azure;
+}
+h1{
+    text-align: center; color:#f70000; font-size:64px;
+}
+h2{
+    color:#a84300;text-align: left;
+}
+h3{
+    color:#f7e700;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ol{
+    text-align: left;
+}
+a{
+    color:#00ffd5;
+}
