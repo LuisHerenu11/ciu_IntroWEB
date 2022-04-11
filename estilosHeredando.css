@@ -1,0 +1,11 @@
+body{
+    color: red;
+}
+/* 
+ OL (hijo) por defecto hereda de BODY (padre) la propiedad COLOR con el VALOR de red.
+ Cuando OL define la propiedad color dentro de su SELECTOR, sobre escribe la regla heredada de su padre (body).
+*/
+
+ol{
+    color: purple;
+}
