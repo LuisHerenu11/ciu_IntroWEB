@@ -1,5 +1,10 @@
-var div1 = document.querySelector("div")
+var primerH1 = document.querySelector("h1")
+/*
+primerH1.style.height = 300;
+primerH1.style.width = 100;
+primerH1.style.backgroundColor = "red";
+primerH1.style.color = "Red";
+*/
 
-div1.style.height = 100
-div1.style.width = 80
-div1.style.backgroundColor = "red";
+primerH1.classList.add("square")
+
