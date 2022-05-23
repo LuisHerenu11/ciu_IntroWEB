@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 1.9 DE JS</title>
+</head>
+<body>
+    <header>
+        <h1>
+            HOJA EN BLANCO POR AHORA...
+        </h1>
+    </header>
+    <script>
+        alert("BIENVENID@ AL SITIO MAS COPADO DE LA WEB Y PELIGROSO TAMBIEN")
+        var userName = prompt("Cual es tu nombre?")
+        alert("Me da gusto que estes por aqui: "+userName)
+        var userAge = prompt("Cual es tu edad?")
+        /* me guardo el dato de la edad del usuario en una variable y la muestro por log para uso de desarrollador*/
+        console.log("la edad del usuario es: "+userAge)
+        alert("Espero que disfrutes al navegar Mr/a: "+userName+" de "+userAge+" años.")
+        /* CALCULO CANTIDAD DE DIAS A SUMAR POR BISIESTO = + 1*/
+        var diasPorBisiesto = Math.floor(userAge / 4); 
+        /* Calculo la cantidad de días, incluido día extra por año bisiesto*/
+        var cantidadDias = (365 * userAge) + diasPorBisiesto
+        alert(userAge+" años,"+"equivalen a: "+cantidadDias+" dias.")
+    </script>
+</body>
+</html>
