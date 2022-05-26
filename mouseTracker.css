@@ -1,0 +1,8 @@
+#body{
+    /* esto hace que el alto del body sea el 100% de la pantalla. */
+    height: 100vh;
+}
+
+#imagenID{
+    position: fixed;
+}
