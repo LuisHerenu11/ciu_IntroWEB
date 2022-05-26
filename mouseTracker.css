@@ -6,3 +6,8 @@
 #imagenID{
     position: fixed;
 }
+
+.cursorOculto {
+    /* oculta el cursor sobre el elemento al cual se le agregue esta clase*/
+    cursor: none;
+}
