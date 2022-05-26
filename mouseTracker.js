@@ -16,3 +16,11 @@ body.addEventListener("mousemove", function(infoEvent){
 })
 
 
+var imagenMagica = document.getElementById("imagenMagica")
+var divSecreto = document.getElementById("divOculto")
+
+
+divSecreto.addEventListener("mouseover", function(){
+    imagenMagica.classList.add("ocultarImagen")
+})
+

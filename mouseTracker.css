@@ -9,5 +9,10 @@
 
 .cursorOculto {
     /* oculta el cursor sobre el elemento al cual se le agregue esta clase*/
-    cursor: none;
+    
+    /* cursor: none;  <-- lo dejo comentado porque dañaba la calidad de vida del .... desarrollador */ 
+}
+
+.ocultarImagen{
+    visibility: hidden;
 }
