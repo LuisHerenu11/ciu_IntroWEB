@@ -15,3 +15,7 @@
 .ocultarImagen{
     visibility: hidden;
 }
+
+.fondo{
+    background-color: white;
+}

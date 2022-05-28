@@ -7,7 +7,7 @@
     <title> MT </title>
     <link rel="stylesheet" href="mouseTracker.css" type="text/css">
 </head>
-<body id="body" class="cursorOculto">
+<body id="body" class="cursorOculto fondo">
     <header>
         <h1>
             <strong> MOUSE TRACKER </strong>
@@ -42,7 +42,11 @@
     <div id="divOculto">
         .
     </div>
-
+    <form>
+        <label for="inputFondo"> CAMBIAR COLOR DE FONDO A: </label>
+	    <input id="inputFondo" type="color" name="colorName" value="#FFFFFF">
+        <br>
+    </form>
     <script src="mouseTracker.js"> </script>
 </body>
 </html>
