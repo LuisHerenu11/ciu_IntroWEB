@@ -24,7 +24,7 @@ body{
     margin-top: 8px;
 }
 #git{
-    background-color: white;
+    background-color: teal;
     border-radius: 38%;
     margin-top: 6px;
     margin-left: 6px;
@@ -50,6 +50,26 @@ h1{
 
 .subtitulo{
     color: gold;
+    text-align: center;
+    padding-bottom: 0.4%;
+    background-color: teal;
+    border-radius: 25px;
+    padding-left: 0.8%;
+    padding-right: 0.8%;
+}
+
+.tabla{
+    background-color: gray;
+    width: 200px;
+    height: auto;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    text-align: left;
+    padding-top: 0.4%; 
+    padding-left: 0.4%;
+    padding-right: 0.4%;
+    padding-bottom: 0.4%;
+    border-radius: 25px;
 }
 
 a{
@@ -57,4 +77,12 @@ a{
 }
 a:hover{
     color: goldenrod
+}
+
+li{
+    list-style-type: decimal;
+    list-style-position: inside;
+    /* list-style: circle; */
+    /* list-style: disc; */
+    /* list-style: square; */
 }
