@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Ejercicios Formularios
+        </h1>
+    </header>
+    <div>
+        <h2>
+            Formulario 3
+        </h2>
+        <form action="">
+            <!-- El tag form tiene dos atributos principales, action y method. 
+                action define a dónde (url o carpeta dentro de un servidor) debe mandar la data del formulario. 
+                El atributo method define qué método HTTP usará: 
+                "get" si pide información, o "post" si envía información. 
+            -->
+            <label for="nombre_usuario">
+                Usuario:
+            </label>
+            <input id="nombre_usuario" type="text" name="usuario" placeholder="Sin espacios" required>
+            <br>
+            <!-- placeholder: texto dentro de la caja del input -->
+            <label for="contraseña_usuario">
+                Contraseña:
+            </label>
+            <input id="contraseña_usuario" type="password" name="contraseña" placeholder="Sin signos" required>
+            <br>
+            <label for="email_usuario">
+                Email:
+            </label>
+            <input id="email_usuario" type="email" name="email" placeholder="Gmail o Hotmail" required>
+            <br>
+            <input type="submit">
+        </form>
+    </div>    
+</body>
+</html>
