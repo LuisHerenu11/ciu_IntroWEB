@@ -1,0 +1,86 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: bisque;
+}
+
+.barra-navegación{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: teal;
+}
+
+.boton-nav{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+}
+
+#git{
+    background-color: teal;
+    border-radius: 38%;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+#top-derecho{
+    position: relative;
+    right: 0;
+    margin-top: 1vw;
+    margin-right: 1vw;
+}
+
+h1{
+    text-align: center;
+    color: pink;
+    font-family: sans-serif;
+    background-color: white;
+    padding: 0px 0px;
+    border-width: 0px;
+    border-style:solid;
+}
+
+footer{
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    background-color: grey;
+    font-family: Century;
+}
+
+form{
+    background-color: grey;
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    width: 600px;
+    padding: 1%;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 20px;
+}
+
+#enviar_formulario{
+    position: relative;
+    right: 0;
+    margin-left: 90%;
+    width: 10%;
+    height: 10%;
+}
+
+p{
+    text-align: center;
+}
+
+#eslogan{
+    background-color: white;
+    color: gold;
+    font-size: 18px;
+}
