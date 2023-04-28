@@ -1,0 +1,35 @@
+body{
+    background-color: #326273;
+}
+
+h1{
+    color: rgb(227, 151, 116);
+}
+
+h2{
+    color: #EEEE;
+}
+
+li{
+    color: green;
+}
+
+#bordeado{
+    border: 3px solid red;
+}
+
+.aloha{
+    background-color: #BFAB25;
+}
+
+input{
+    border: 2px dashed lime;
+}
+
+div p{
+    font-size: 300%;
+}
+
+input[type="text"] {
+    background-color: yellow;
+}
