@@ -33,3 +33,7 @@ div p{
 input[type="text"] {
     background-color: yellow;
 }
+
+a::visited{
+    color: green;
+}
