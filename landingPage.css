@@ -1,0 +1,36 @@
+#container{
+    width: 80%;
+    margin: 0;
+}
+
+img{
+    width: 30%;
+    margin: 1.4%;
+    height: 50%;
+}
+
+p{
+    margin-left: 1.4%;
+    font-size: 40px;
+}
+
+#titulo{
+    font-family: 'Dancing Script', cursive;
+    border-bottom: 2px solid red;
+    padding-bottom: 6px;
+    width: 20%;
+}
+
+#mayuscula{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/*
+Hace que las imágenes sean links que te lleven a otras páginas.
+
+Por ejemplo click ar una imagen puede llevar a otra página creada por vos donde esté la imagen en tamaño original.
+
+Agregar le un link de contacto con la información del fotógrafo. 
+Puedes hacer que redirija a otra página con toda la información o que sea simplemente un tag <a> que use mailto:...
+*/
