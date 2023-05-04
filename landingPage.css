@@ -26,11 +26,7 @@ p{
     font-size: 20px;
 }
 
-/*
-Hace que las imágenes sean links que te lleven a otras páginas.
-
-Por ejemplo click ar una imagen puede llevar a otra página creada por vos donde esté la imagen en tamaño original.
-
-Agregar le un link de contacto con la información del fotógrafo. 
-Puedes hacer que redirija a otra página con toda la información o que sea simplemente un tag <a> que use mailto:...
-*/
+.cuadro{
+    border: 4px solid gold;
+    border-radius: 5%;
+}
