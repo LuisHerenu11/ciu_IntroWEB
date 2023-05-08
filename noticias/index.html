@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>True News</title>
+    <link rel="stylesheet" href="estilo_noticias.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cabezal">
+            <div class="barra_navegacion">
+                <nav class="barra_nav">
+                    <div id="fecha_actual"> Fecha del día </div>
+                    <script>
+                        document.getElementById("fecha_actual").innerHTML = Date();
+                    </script>
+                    <ul class="menu_links">
+                        <li class="menu_item">
+                            <a href="">SECCIONES <img src="assets/arrow.svg" class="menu_arrow"></a>
+                            <ul class="menu_nesting">
+                                <li class="menu_inside">
+                                    <a href="" class="menu_link menu_link--inside">
+                                        Deporte
+                                    </a>
+                                </li>
+                                <li class="menu_inside menu_link--inside">    
+                                    <a href="" class="menu_link menu_link--inside">
+                                        Finanzas
+                                    </a>
+                                </li>
+                                <li class="menu_inside menu_link--inside">    
+                                    <a href="" class="menu_link menu_link--inside">
+                                        Politica
+                                    </a>
+                                </li>
+                                <li class="menu_inside menu_link--inside">
+                                    <a href="" class="menu_link menu_link--inside">
+                                        Redes Sociales
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <button> SUSCRIBIRSE</button>
+                </nav>
+            </div>
+            <div class="titulo">
+                <h1>
+                    True News
+                </h1>
+            </div>
+        </div>
+        <div class="cuerpo">
+            <div class="noticia1"></div>
+            <div class="noticia2"></div>
+            <div class="noticia3"></div>
+            <div class="noticia4"></div>
+            <div class="notas"></div>
+        </div>
+        <div class="pie">
+            <div class="copyright"></div>
+            <div class="redes_sociales"></div>
+            <div class="links_asociados"></div>
+            <div class="politica_privacidad"></div>
+        </div>
+    </div>
+</body>
+</html>
