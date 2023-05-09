@@ -78,6 +78,7 @@
 }
 
 .menu_item{
+    display: inline-grid;
     list-style: none;
     position: relative;
     height: 100%;
@@ -91,11 +92,14 @@
 }
 
 .menu_nesting{
+    display: inline; /* agregado */
     list-style: none;
     transition:clip-path .3s;
     clip-path: var(--clip);
     position: absolute;
-    /* width: max-content; */
+    width: max-content;
+    top: 100%;
+    background-color: black;
 }
 
 .menu_link--inside:hover{
@@ -107,6 +111,7 @@
 }
 
 .barra_navegacion{
+    display: inline; /* agregado */
     background-color: black;
     width: 100%;
     margin-left: auto;
@@ -115,4 +120,14 @@
 
 #fecha_actual{
     color: white;
+}
+
+/* nuevo */
+
+.barra_nav{
+    display: inline;
+}
+
+#fecha_actual{
+    display: inline;
 }
