@@ -4,6 +4,10 @@
     border: 0;
 }
 
+body{
+    display: grid;
+}
+
 .container {  display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -75,10 +79,12 @@
     transition: transform .5s;
     /*display: flex;*/
     display:inline;
+    padding-left: 18%; /* para separarse de la fecha; el space between no me funcionaba */
 }
 
 .menu_item{
     display: inline-grid;
+    font-size: 25px;
     list-style: none;
     position: relative;
     height: 100%;
@@ -89,6 +95,8 @@
 .menu_arrow{
     transform: var(--transform);
     transition: transform .3s;
+    position: relative;
+    top:22% /* para acomodar la flecha */
 }
 
 .menu_nesting{
@@ -98,24 +106,30 @@
     clip-path: var(--clip);
     position: absolute;
     width: max-content;
-    top: 100%;
-    background-color: black;
+    top: 150%;
+    right: 10%;
+    background-color: ivory;
+    border-radius: 25%;
+    padding: 6%;
 }
 
 .menu_link--inside:hover{
-    background-color: purple;
+    background-color: gold;
 }
 
 .menu_item:hover{
-    --clip:polygon(0 0, 100% 0, 100% 100%, 0% 100%);    
+    --clip:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    --transform: rotate(0);    
 }
 
 .barra_navegacion{
-    display: inline; /* agregado */
+    display: grid; /* cambiado de inline a grid */
     background-color: black;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    /* justify-items: start; */
+    justify-content: space-between; /* separa a los hijos */
 }
 
 #fecha_actual{
@@ -125,9 +139,45 @@
 /* nuevo */
 
 .barra_nav{
+    width: 100vw;
     display: inline;
+    justify-content: space-around;
+    margin: 1%;
 }
 
 #fecha_actual{
-    display: inline;
+    display: inline-grid;
+}
+
+.boton_suscribe{
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    margin-top: 1vw;
+    margin-right: 1vw;
+}
+
+@media (max-width: 800px){
+    .barra_nav{
+        display: block;
+    }
+    .menu_links{
+        padding-left: 2%;
+    }
+    #fecha_actual{
+        display: block;
+        font-size: smaller;
+    }
+    .boton_suscribe{
+        position: fixed;
+        right: 1;
+        top: 5%;
+        margin-right: 3%;
+    }
+    .menu_arrow{
+        top: 12%;
+    }
+    .menu_nesting{
+        top: 50%;
+    }
 }
