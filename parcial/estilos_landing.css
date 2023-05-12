@@ -1,0 +1,56 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container_grid {  display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 0.5fr 4fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "cabezal cabezal cabezal"
+    "cuerpo cuerpo cuerpo"
+    "pie pie pie";
+}
+
+.cabezal {  display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "logo menu .";
+    grid-area: cabezal;
+    background-color: fuchsia;
+}
+
+.logo { grid-area: logo; }
+
+.menu { grid-area: menu; }
+
+.cuerpo {  display: grid;
+    grid-template-columns: 4fr;
+    grid-template-rows: 4fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    ".";
+    grid-area: cuerpo;
+}
+
+.pie {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "contacto_redes contacto_redes mapa";
+    grid-area: pie;
+}
+
+.contacto_redes { grid-area: contacto_redes; }
+
+.mapa { grid-area: mapa; }
