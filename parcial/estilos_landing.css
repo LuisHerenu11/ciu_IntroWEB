@@ -49,11 +49,15 @@
     grid-template-areas:
     "contacto_redes contacto_redes mapa";
     grid-area: pie;
+    background-color: black;
 }
 
-.contacto_redes { grid-area: contacto_redes; }
+.contacto_redes { grid-area: contacto_redes; 
+color: white;}
 
-.mapa { grid-area: mapa; }
+.mapa { grid-area: mapa; 
+    padding: 3%;
+}
 
 
 .espaciado_item_barra{
@@ -80,4 +84,13 @@ ul{
 
 .oscuro{
     background-color: black !important;
+}
+
+.alinear{
+    display: inline-grid !important;
+    margin-left: 4px;
+}
+
+.espaciado{
+    padding-left: 24px;
 }
