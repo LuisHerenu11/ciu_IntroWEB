@@ -24,7 +24,7 @@
     grid-template-areas:
     "logo menu .";
     grid-area: cabezal;
-    background-color: fuchsia;
+    background-color: #E400FF; /* acordarme de cambiar a negro en modo oscuro */
 }
 
 .logo { grid-area: logo; }
@@ -54,3 +54,30 @@
 .contacto_redes { grid-area: contacto_redes; }
 
 .mapa { grid-area: mapa; }
+
+
+.espaciado_item_barra{
+    padding-left: 20%;
+}
+
+.redondeo{
+    border-radius: 100%;
+}
+
+.logo_redes{
+    margin-top: 2px;
+    width: 30px;
+    height: 30px;
+}
+
+ul{
+    list-style: none;
+}
+
+.iluminado{
+    background-color: #E400FF !important;
+}
+
+.oscuro{
+    background-color: black !important;
+}
