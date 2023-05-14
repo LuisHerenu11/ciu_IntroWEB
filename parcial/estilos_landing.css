@@ -127,3 +127,16 @@ body{
         background-position: 0% 50%;
     }
 }
+
+.mensaje{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 250%;
+    margin-top: 10%;
+}
+
+.mensaje:hover{
+    color: goldenrod;
+    font-size:300%;
+    transition: 3s;
+}
