@@ -106,3 +106,21 @@ ul{
     height: min-content;
     border: 4px solid gray;
 }
+
+body{
+    background-image: linear-gradient(135deg,#40027a,#5907a5,#8400ff,#ff00aa,#f35fa9,#f17b7b);
+    background-size: 100%;
+    animation: fondo_animado 20s infinite;
+}
+
+@keyframes fondo_animado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
