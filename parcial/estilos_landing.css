@@ -94,3 +94,7 @@ ul{
 .espaciado{
     padding-left: 24px;
 }
+
+.letras_blancas{
+    color: white !important;
+}
